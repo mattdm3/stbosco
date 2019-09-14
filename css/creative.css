@@ -429,6 +429,14 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+
+@media (max-width: 500px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -489,16 +497,17 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  width: 22rem
 }
 
-/* .img-thumbnail {
-  padding: 0.25rem;
+.img-thumbnail {
+  padding: 0.75rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
-} */
+}
 
 .figure {
   display: inline-block;
@@ -10682,7 +10691,19 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 7rem;
+  font-size: 5rem;
+}
+
+@media (min-width: 556px) {
+  header.masthead h1 { 
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead h1 {
+    font-size: 8rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -10696,22 +10717,21 @@ header.masthead h1 {
     font-size: 1.25rem;
   }
   header.masthead h1 {
-    font-size: 7rem;
+    font-size: 9rem;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 9rem;
+    font-size: 9.5rem;
   }
 }
 
-@media (max-width: 500px) {
-  header.masthead h1 { 
-    font-size: 5rem;
-  }
-}
-   
+
+
+
+
+
 
 #portfolio .container-fluid {
   max-width: 1920px;
